@@ -8,9 +8,11 @@ When you decide what file to serve by the URI, you can just leave the rest to th
 npm install node-dynamic
 
 # test
+```bash
 # install mocha
 (sudo) npm install -g mocha
 npm test
+```
 
 # example
 

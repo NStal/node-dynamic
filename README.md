@@ -27,10 +27,10 @@ server = http.createServer(function(req,res){
        if(req.method.toLowerCase() == "get"){
              dynamic.get req,res,{path:path}
        }else if(req.method.toLowerCase() == "head"){
-             dynamic.head req,res,{path:path}
+             dynamic.head res,res,{path:path}
        }else{
-             req.statusCode = 404;
-             req.end("");
+             res.statusCode = 404;
+             res.end("");
        }
 })
 server.listen(8080)

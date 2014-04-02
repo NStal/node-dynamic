@@ -2,6 +2,7 @@
     "name": "node-dynamic",
     "version": "0.0.0",
     "description": "An module to handle http range request",
+    "repository":"https://github.com/NStal/node-dynamic",
     "main": "index.js",
     "scripts": {
         "test": "mocha -R spec -b --compilers .coffee:coffee-script test/mocha.coffee"
